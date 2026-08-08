@@ -77,7 +77,7 @@ function observeSections() {
   });
 }
 
-var end = new Date('2026-08-23T12:30:00-05:00').getTime();
+var end = new Date('2026-08-23T14:00:00-05:00').getTime();
 function tick() {
   var diff = Math.max(0, Math.floor((end - Date.now()) / 1000));
   document.getElementById('d').textContent = String(Math.floor(diff / 86400)).padStart(2, '0');
